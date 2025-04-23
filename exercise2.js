@@ -1,4 +1,3 @@
 function greet(name) {
-   if (!name) return "Hello!";
-   return `Hello ${name}!`;
+   return (!name) ? "Hello!" : `Hello ${name}!`;
 }
